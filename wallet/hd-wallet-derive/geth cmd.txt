@@ -1,0 +1,11 @@
+./geth --datadir node1 init amarnew.json
+./geth --datadir node2 init amar.json
+
+./geth --datadir node1 init rama.json
+./geth --datadir node2 init rama.json
+
+./geth --datadir node1 --unlock "0x2222C2EF61816F5D61c74f429E20c4dFF6a474b3" --mine --rpc --allow-insecure-unlock
+
+0x1a3A6E4f8764552623954FcD4d84EA75207Eea47
+
+0xD3C2FcF719CbC908f71a04155Cb704B66255A4A6
